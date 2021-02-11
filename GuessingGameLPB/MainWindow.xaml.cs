@@ -25,13 +25,33 @@ namespace GuessingGameLPB
             InitializeComponent();
 
         }
+            
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Random randNum = new Random();
+
+            if (radioButton1.IsChecked == true)
+            {
+
+                resultLabel.Content = randNum.Next(1, 10);
+
+            }
+            else if (radioButton2.IsChecked == true)
+            {
+                resultLabel.Content = randNum.Next(1, 100);
+            }
+            else if (radioButton3.IsChecked == true)
+            {
+
+                resultLabel.Content = randNum.Next(1, 10000);
+            }
+            else resultLabel.Content = "Pick a mode.";
 
 
 
+        }
 
-    }
-
-
+        
 
 
 

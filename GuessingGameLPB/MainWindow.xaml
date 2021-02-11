@@ -7,7 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <RadioButton Content="RadioButton" HorizontalAlignment="Left" Margin="194,118,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="radioButton1" Content="Baby Mode" HorizontalAlignment="Left" Margin="194,118,0,0" VerticalAlignment="Top"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="267,249,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Label x:Name="resultLabel" Content="Label" HorizontalAlignment="Left" Margin="411,170,0,0" VerticalAlignment="Top" Width="368"/>
+        <RadioButton x:Name="radioButton2" Content="Normal Mode" HorizontalAlignment="Left" Margin="194,138,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="radioButton3" Content="Hard Mode" HorizontalAlignment="Left" Margin="194,158,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
