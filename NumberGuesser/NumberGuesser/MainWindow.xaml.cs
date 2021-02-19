@@ -24,9 +24,11 @@ namespace NumberGuesser
         {
             InitializeComponent();
             EnterButton.IsEnabled = false;
+            EnterButton.Visibility = Visibility.Hidden;
         }
         Player player = new Player();
         Game game = new Game();
+        
         private void StartButton_Click(object sender, RoutedEventArgs e)
         {
             if ((bool)!player3.IsChecked && (bool)!player2.IsChecked && (bool)!player1.IsChecked)
@@ -48,6 +50,8 @@ namespace NumberGuesser
                     StartButton.IsEnabled = false;
                     rlb.Content = "";
                     EnterButton.IsEnabled = true;
+                    EnterButton.Visibility = Visibility.Visible;
+                    StartButton.Visibility = Visibility.Hidden;
                 }
             }
         }
@@ -61,10 +65,12 @@ namespace NumberGuesser
             {
                 if (game.isHighorLow() == true) highorlow = "Too High!";
                 else if (game.isHighorLow() == false) highorlow = "Too Low!";
+                
             }
             rlb.Content += string.Format("Player {0} Guess #{1}: " + EnterTextbox.Text +"  "+highorlow +"\n", player.getPlayerNum(), counter);
-            if (game.CheckNumber(int.Parse(EnterTextbox.Text)) == true){ rlb.Content += "You Got it Bruh!"; EnterButton.IsEnabled = false; }
+            if (game.CheckNumber(int.Parse(EnterTextbox.Text)) == true){ rlb.Content += "You Got it!"; EnterButton.IsEnabled = false; }
             counter++;
+            EnterTextbox.Clear();
         }
 
     }
