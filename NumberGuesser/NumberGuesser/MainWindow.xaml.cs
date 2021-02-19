@@ -25,8 +25,6 @@ namespace NumberGuesser
             InitializeComponent();
             EnterButton.IsEnabled = false;
         }
-<<<<<<< Updated upstream
-=======
         Player player = new Player();
         Game game = new Game();
         private void StartButton_Click(object sender, RoutedEventArgs e)
@@ -69,6 +67,5 @@ namespace NumberGuesser
             counter++;
         }
 
->>>>>>> Stashed changes
     }
 }

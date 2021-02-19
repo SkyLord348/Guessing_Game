@@ -1,26 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MaconRM180\\Documents\\GitHub\\NumberGuesser\\NumberGuesser\\NumberGuesser\\NumberGuesser.csproj": {}
+    "C:\\Users\\MaconRM180\\Desktop\\Lucas Bramer\\Guessing_Game\\NumberGuesser\\NumberGuesser\\NumberGuesser.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MaconRM180\\Documents\\GitHub\\NumberGuesser\\NumberGuesser\\NumberGuesser\\NumberGuesser.csproj": {
+    "C:\\Users\\MaconRM180\\Desktop\\Lucas Bramer\\Guessing_Game\\NumberGuesser\\NumberGuesser\\NumberGuesser.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MaconRM180\\Documents\\GitHub\\NumberGuesser\\NumberGuesser\\NumberGuesser\\NumberGuesser.csproj",
+        "projectUniqueName": "C:\\Users\\MaconRM180\\Desktop\\Lucas Bramer\\Guessing_Game\\NumberGuesser\\NumberGuesser\\NumberGuesser.csproj",
         "projectName": "NumberGuesser",
-        "projectPath": "C:\\Users\\MaconRM180\\Documents\\GitHub\\NumberGuesser\\NumberGuesser\\NumberGuesser\\NumberGuesser.csproj",
+        "projectPath": "C:\\Users\\MaconRM180\\Desktop\\Lucas Bramer\\Guessing_Game\\NumberGuesser\\NumberGuesser\\NumberGuesser.csproj",
         "packagesPath": "C:\\Users\\MaconRM180\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MaconRM180\\Documents\\GitHub\\NumberGuesser\\NumberGuesser\\NumberGuesser\\obj\\",
+        "outputPath": "C:\\Users\\MaconRM180\\Desktop\\Lucas Bramer\\Guessing_Game\\NumberGuesser\\NumberGuesser\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\MaconRM180\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -31,7 +29,6 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -43,7 +40,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -62,7 +58,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
